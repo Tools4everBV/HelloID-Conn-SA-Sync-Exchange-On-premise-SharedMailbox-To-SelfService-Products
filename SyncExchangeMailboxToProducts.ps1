@@ -1066,7 +1066,7 @@ try {
             IsCommentable              = $true
             HasTimeLimit               = $false
             LimitType                  = 'Fixed'
-            ManagerCanOverrideDuration = $true
+            ManagerCanOverrideDuration = $false
             ReminderTimeout            = 30
             OwnershipMaxDuration       = 90
             CreateDefaultEmailActions  = $true
