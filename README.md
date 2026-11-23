@@ -1,5 +1,13 @@
 HelloID-Conn-SA-Sync-Exchange-On-premise-SharedMailbox-To-SelfService-Products
 
+> [!IMPORTANT]
+> **Best Practice - Maximum Synchronization Frequency: Once per day**
+>
+> **Why this maximum?**
+> New resources are typically created daily or weekly, not hourly. More frequent synchronization causes unnecessary API calls and processing load on both source systems and HelloID without business value.
+>
+> If a higher frequency is required for your organization, please contact **Tools4ever Support**. This helps us understand your use case and provide proper guidance.
+
 | :warning: Warning |
 |:---------------------------|
 | Note that this HelloID connector has not been tested in a production environment! |
